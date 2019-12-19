@@ -1,0 +1,44 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+
+# 此为注释 – 将被 Git 忽略
+
+#忽略根目录下的.idea文件夹以及文件夹下所有文件
+/.idea/
+#忽略target目录以及文件夹下所有文件
+target/
+#忽略所有.iml结尾的文件
+*.iml
+#忽略out输出目录
+out/
+/src/main/resources/static/
+*.log
